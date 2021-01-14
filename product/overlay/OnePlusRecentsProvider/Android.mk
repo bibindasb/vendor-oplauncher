@@ -3,6 +3,7 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE := OnePlusRecentsProvider
 LOCAL_MODULE_STEM := OnePlusRecentsProvider.apk
+LOCAL_PRODUCT_MODULE := true
 LOCAL_SRC_FILES := OnePlusRecentsProvider.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
